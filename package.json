@@ -1,7 +1,7 @@
 {
-  "name": "python-guide-for-web-engineers",
-  "version": "0.0.0",
-  "private": true,
+  "name": "python-guide-for-javascript-engineers",
+  "version": "1.0.0",
+  "private": false,
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -22,9 +22,9 @@
     "@giscus/react": "^2.3.0",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^1.2.1",
-    "prism-react-renderer": "^2.3.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "prism-react-renderer": "^2.1.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.0.0",
@@ -44,6 +44,23 @@
       "last 5 safari version"
     ]
   },
+  "repository": "https://github.com/luckrnx09/python-guide-for-javascript-engineers",
+  "homepage": "https://luckrnx09.github.io/python-guide-for-javascript-engineers",
+  "author": "luckrnx09",
+  "keywords": [
+    "Python",
+    "JavaScript",
+    "Programming",
+    "Experience",
+    "Tutorial",
+    "Open Source",
+    "Free",
+    "eBook",
+    "Download",
+    "PDF",
+    "Examples"
+  ],
+  "description": "The Python Guide for JavaScript Engineers is an open source ebook that covers everything from Python environment installation to project development. This book compares the similarities and differences between JavaScript and Python through cases to help JavaScript engineers quickly master the Python language.",
   "engines": {
     "node": ">=18.0"
   }

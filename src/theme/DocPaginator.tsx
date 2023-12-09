@@ -3,44 +3,57 @@ import DocPaginator from '@theme-original/DocPaginator';
 import Giscus from '@giscus/react';
 import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 
+const defaultTheme = 'light';
+const defaultTerm = 'index';
+const defaultLocale = 'en'
+
 const getGiscusTerm = () => {
   var currentURL = window.location.href;
   var path = new URL(currentURL).pathname;
-  var replacedPath = path.replace(/\//g, '.');
-  replacedPath = replacedPath.replace(/^\.+|\.+$/g, '')
-    .replace('books.python-guide-for-javascript-engineers', '');
-  const term = decodeURIComponent(replacedPath) 
-  if (term.startsWith('.')) { 
-    return term.substring(1)
-  }
-  return '封面';
+  const term = path.substring(path.lastIndexOf('/') + 1).replace('/', '.') || defaultTerm;
+  return term
 }
 
 const getTheme = () => {
   if (ExecutionEnvironment.canUseDOM) {
     const theme = document.documentElement.getAttribute('data-theme');
-    return theme;
+    return theme ?? defaultTheme
   }
-  return 'light'
+  return defaultTheme
+}
+
+const getLocale = () => {
+  const locales = ['en', 'zh-CN']
+  for (let locale of locales) {
+    if (location.href.toString().includes(`/${locale.toLowerCase()}/`)) {
+      return locale
+    }
+  }
+  return defaultLocale
 }
 
 export default function DocPaginatorWrapper(props) {
-  const [term, setTerm] = useState('index');
-  const [theme, setTheme] = useState('light');
+  const [term, setTerm] = useState(defaultTerm);
+  const [theme, setTheme] = useState(defaultTheme);
+  const [locale, setLocale] = useState(defaultLocale);
 
   useEffect(() => {
     setTerm(getGiscusTerm())
-  }, [])
+  })
 
   useEffect(() => {
     setTheme(getTheme())
-  }, [])
+  })
+
+  useEffect(() => {
+    setLocale(getLocale())
+  })
 
   return (
     <>
       <DocPaginator {...props} />
       <div style={{ margin: '2em 0' }}></div>
-      {/* https://giscus.app/zh-CN */}
+      {/* https://giscus.app */}
       <Giscus
         repo='luckrnx09/python-guide-for-javascript-engineers'
         repoId='R_kgDOK21mTg'
@@ -50,9 +63,9 @@ export default function DocPaginatorWrapper(props) {
         term={term}
         reactionsEnabled='1'
         emitMetadata='1'
-        inputPosition='top'
+        inputPosition='bottom'
         theme={theme}
-        lang='zh-CN'
+        lang={locale}
         loading="lazy"
       />
     </>
