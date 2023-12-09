@@ -9,22 +9,22 @@ In Python, arrays are called lists and are used to store multiple consecutive va
 
 ### Task
 
-Define a list of people that includes "张三" (Zhang San), "李四" (Li Si), and "王五" (Wang Wu).
+Define a list of people that includes Bob, Tom, and Amy.
 
 #### JavaScript implementation
 ```javascript
 let names = [];
-names.push('张三')
-names.push('李四')
-names.push('王五')
+names.push('Bob')
+names.push('Tom')
+names.push('Amy')
 console.log(names)
 ```
 #### Python implementation
 ```python
 names = [];
-names.append('张三')
-names.append('李四')
-names.append('王五')
+names.append('Bob')
+names.append('Tom')
+names.append('Amy')
 print(names)
 ```
 

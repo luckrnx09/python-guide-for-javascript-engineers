@@ -13,24 +13,24 @@ Write a function that greets a person by formatting their personal information (
 
 #### JavaScript implementation
 ```javascript
-function greet(name, age, gender='保密') {
+function greet(name, age, gender='Secret') {
   console.log(`Hello, I am ${name}, ${age} years old, ${gender}`)
 }
 
-console.log(greet('张三', 18));
-console.log(greet('李四', 18, '男'));
-console.log(greet(...['王五', 18, '女']));
+console.log(greet('Bob', 18));
+console.log(greet('Tom', 18, 'male'));
+console.log(greet(...['Amy', 18, 'female']));
 ```
 
 #### Python implementation
 ```python
-def greet(name, age, gender='保密'):
+def greet(name, age, gender='Secret'):
     print(f"Hello, I am {name}, {age} years old, {gender}")
 
-print(greet('张三', 18)) # Positional arguments
-print(greet(age=18,name='张三')) # Keyword arguments
-print(greet('李四', 18, '男')) 
-print(greet(*['王五', 18, '女'])) 
+print(greet('Bob', 18)) # Positional arguments
+print(greet(age=18,name='Bob')) # Keyword arguments
+print(greet('Tom', 18, 'male')) 
+print(greet(*['Amy', 18, 'female'])) 
 ```
 
 ### Code Highlight

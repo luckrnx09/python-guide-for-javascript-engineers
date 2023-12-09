@@ -20,7 +20,7 @@ Define 5 variables to represent a person's payslip, including: name, month, sala
 #### JavaScript implementation
 
 ```javascript
-let name = '张三' // string
+let name = 'Bob' // string
 let month = 12 // number
 let salary = 10000.12 // number
 let isPerfectAttendance = true // boolean
@@ -31,7 +31,7 @@ console.log(typeof name) // Get the type of the variable
 #### Python implementation
 
 ```python
-name = '张三' # str
+name = 'Bob' # str
 month = 12 # int
 salary = 10000.12 # float
 is_perfect_attendance = True # bool

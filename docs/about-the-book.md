@@ -5,7 +5,7 @@ title: About the Book
 sidebar_label: About the Book
 ---
 
-Hello, I'm luckrnx09, a frontend engineer who makes a living with React. I'm glad to introduce to you my first open-source e-book, "A Guide to Python for JavaScript Engineers".
+Hello, I'm luckrnx09, a frontend engineer who makes a living with React. I'm glad to introduce to you my first open-source e-book, "Python Guide for JavaScript Engineers".
 
 The content of this book is completely free and open-source. You can find the repository here: https://github.com/luckrnx09/python-guide-for-javascript-engineers
 
@@ -37,7 +37,7 @@ My open-source project abook https://github.com/luckrnx09/abook, is an AI book-w
 
 ### Errata
 
-Due to my limited knowledge, errors may occur during the writing process. If you discover any mistakes in the book, I welcome you to submit a pull request through the "Edit This Page" link at the bottom left of the article to help improve the content of this book.
+Due to my limited knowledge, errors may occur during the writing process. If you discover any mistakes in the book, I welcome you to submit a pull request through the "Edit this page" link at the bottom left of the article to help improve the content of this book.
 
 <div align="right">
     <span> — </span>

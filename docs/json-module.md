@@ -73,7 +73,7 @@ When converting Python objects to JSON strings, if you encounter Chinese encodin
 ```python
 import json
 
-data = {"name": "张三", "age": 25}
+data = {"name": "Bob", "age": 25}
 json_str = json.dumps(data, ensure_ascii=False)
 print(json_str)
 ```

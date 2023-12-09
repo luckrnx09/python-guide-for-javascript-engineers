@@ -17,7 +17,7 @@ import fs from 'fs';
 
 const data = fs.readFileSync('books.txt', 'utf8');
 const books = data.split('\n');
-const classics = ['红楼梦', '西游记', '水浒传', '三国演义'];
+const classics = ['The Story of the Stone', 'Journey to the West', 'Water Margin', 'Romance of the Three Kingdoms'];
 const missingClassics = classics.filter(classic => !books.includes(classic));
 
 if (missingClassics.length === 0) {
@@ -37,7 +37,7 @@ with open('books.txt', 'r', encoding='utf-8') as file:
     books = file.read().splitlines()
 
 # Check if the file contains the four great classical novels of China
-classics = ['红楼梦', '西游记', '水浒传', '三国演义']
+classics = ['The Story of the Stone', 'Journey to the West', 'Water Margin', 'Romance of the Three Kingdoms']
 missing_classics = [classic for classic in classics if classic not in books]
 
 if len(missing_classics) == 0:
