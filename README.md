@@ -1,19 +1,22 @@
-<div align="center">
- English | <a href="./README-zh_CN.md">简体中文</a>
-  <p>An open-source ebook powered by <a 
-  target="_blank" href="https://github.com/luckrnx09/abook">abook</a></p>
-</div>
+# Python Guide for JavaScript Engineers
 
+English | [简体中文](./README-zh_CN.md)
 
-<div align="center">
-    <img src="./static/img/book_cover.png" width="60%" />
-</div>
+<img src="./static/img/book_cover.png" width="50%" />
 
+<br>
 
-The Python Guide for JavaScript Engineers is an open source ebook that covers everything from Python environment installation to project development. This book compares the similarities and differences between JavaScript and Python through cases to help JavaScript engineers quickly master the Python language.
+The *Python Guide for JavaScript Engineers* is an open-source e-book based on [abook](https://github.com/luckrnx09/abook), covering everything from installing Python environment to project development. This book uses numerous examples to compare and contrast the similarities and differences between JavaScript and Python, helping JavaScript engineers quickly grasp the Python language.
 
-<div align="center">
- <a target="_blank" href="https://luckrnx09.github.io/python-guide-for-javascript-engineers">Read it online 🚀</a> 
-</div>
+## Online Reading
 
-Welcome to submit PR to supplement, revise and translate the content of this book.
+You can read this book online at the following link:
+
+[https://luckrnx09.com/python-guide-for-javascript-engineers](https://luckrnx09.com/python-guide-for-javascript-engineers)
+
+## Contribution
+
+Contributions are welcome to supplement, correct, and translate the content of this book. Please submit PRs for any changes.
+
+## License
+See [LICENSE](./LICENSE) for details.
