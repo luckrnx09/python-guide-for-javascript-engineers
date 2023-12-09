@@ -5,7 +5,7 @@ import type { Options } from '@docusaurus/preset-classic'
 const config: Config = {
   title: 'Python Guide for Javascript Engineers',
   tagline: 'Python, JavaScript, programming, experience, tutorials, open source, free, eBooks, downloads, PDF, examples',
-  url: 'https://luckrnx09.github.io',
+  url: 'https://luckrnx09.com',
   baseUrl: '/python-guide-for-javascript-engineers/',
   trailingSlash: false,
   onBrokenLinks: 'throw',
