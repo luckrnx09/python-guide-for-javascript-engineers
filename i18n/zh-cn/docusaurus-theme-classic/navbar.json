@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "JavaScript 工程师的 Python 指南",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "JavaScript 工程师的 Python 指南",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Github": {
+    "message": "Github",
+    "description": "Navbar item with label Github"
+  }
+}

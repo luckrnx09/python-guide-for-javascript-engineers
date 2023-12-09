@@ -1,0 +1,90 @@
+{
+  "version.label": {
+    "message": "新版本",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.Introduction": {
+    "message": "前言",
+    "description": "The label for category 前言 in sidebar docs"
+  },
+  "sidebar.docs.category.Part 1 - Python Basics": {
+    "message": "第一部分 - Python 基础",
+    "description": "The label for category 第一部分 - Python 基础 in sidebar docs"
+  },
+  "sidebar.docs.category.Development Environment": {
+    "message": "开发环境",
+    "description": "The label for category 开发环境 in sidebar docs"
+  },
+  "sidebar.docs.category.Variables": {
+    "message": "变量",
+    "description": "The label for category 变量 in sidebar docs"
+  },
+  "sidebar.docs.category.Data Types": {
+    "message": "数据类型",
+    "description": "The label for category 数据类型 in sidebar docs"
+  },
+  "sidebar.docs.category.Branching and Loops": {
+    "message": "分支和循环",
+    "description": "The label for category 分支和循环 in sidebar docs"
+  },
+  "sidebar.docs.category.Part 2 - Python Intermediate": {
+    "message": "第二部分 - Python 进阶",
+    "description": "The label for category 第二部分 - Python 进阶 in sidebar docs"
+  },
+  "sidebar.docs.category.Functions": {
+    "message": "函数",
+    "description": "The label for category 函数 in sidebar docs"
+  },
+  "sidebar.docs.category.Modules and Packages": {
+    "message": "模块和包",
+    "description": "The label for category 模块和包 in sidebar docs"
+  },
+  "sidebar.docs.category.File Operations": {
+    "message": "文件操作",
+    "description": "The label for category 文件操作 in sidebar docs"
+  },
+  "sidebar.docs.category.Built-in Modules": {
+    "message": "内建模块",
+    "description": "The label for category 内建模块 in sidebar docs"
+  },
+  "sidebar.docs.category.Part 3 - Python Advanced": {
+    "message": "Part 3 - Python Advanced",
+    "description": "The label for category 第三部分 - Python 高级 in sidebar docs"
+  },
+  "sidebar.docs.category.Object-Oriented Programming": {
+    "message": "面向对象编程",
+    "description": "The label for category 面向对象 in sidebar docs"
+  },
+  "sidebar.docs.category.Exception Handling": {
+    "message": "异常处理",
+    "description": "The label for category 异常处理 in sidebar docs"
+  },
+  "sidebar.docs.category.Project Dependency Management": {
+    "message": "项目依赖管理",
+    "description": "The label for category 项目依赖管理 in sidebar docs"
+  },
+  "sidebar.docs.category.Type Systems": {
+    "message": "类型系统",
+    "description": "The label for category 类型系统 in sidebar docs"
+  },
+  "sidebar.docs.category.Part 4 - Comprehensive Cases": {
+    "message": "第四部分 - 综合案例",
+    "description": "The label for category 第四部分 - 综合案例 in sidebar docs"
+  },
+  "sidebar.docs.category.Command-Line Tools": {
+    "message": "命令行工具",
+    "description": "The label for category 命令行工具 in sidebar docs"
+  },
+  "sidebar.docs.category.Web Scraping": {
+    "message": "爬虫",
+    "description": "The label for category 爬虫 in sidebar docs"
+  },
+  "sidebar.docs.category.Web API": {
+    "message": "Web API",
+    "description": "The label for category Web API in sidebar docs"
+  },
+  "sidebar.docs.category.Appendix": {
+    "message": "附录",
+    "description": "The label for category 附录 in sidebar docs"
+  }
+}

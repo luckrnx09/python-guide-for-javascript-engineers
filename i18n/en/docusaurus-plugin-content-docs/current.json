@@ -1,0 +1,90 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.Introduction": {
+    "message": "Introduction",
+    "description": "The label for category Introduction in sidebar docs"
+  },
+  "sidebar.docs.category.Part 1 - Python Basics": {
+    "message": "Part 1 - Python Basics",
+    "description": "The label for category Part 1 - Python Basics in sidebar docs"
+  },
+  "sidebar.docs.category.Development Environment": {
+    "message": "Development Environment",
+    "description": "The label for category Development Environment in sidebar docs"
+  },
+  "sidebar.docs.category.Variables": {
+    "message": "Variables",
+    "description": "The label for category Variables in sidebar docs"
+  },
+  "sidebar.docs.category.Data Types": {
+    "message": "Data Types",
+    "description": "The label for category Data Types in sidebar docs"
+  },
+  "sidebar.docs.category.Branching and Loops": {
+    "message": "Branching and Loops",
+    "description": "The label for category Branching and Loops in sidebar docs"
+  },
+  "sidebar.docs.category.Part 2 - Python Intermediate": {
+    "message": "Part 2 - Python Intermediate",
+    "description": "The label for category Part 2 - Python Intermediate in sidebar docs"
+  },
+  "sidebar.docs.category.Functions": {
+    "message": "Functions",
+    "description": "The label for category Functions in sidebar docs"
+  },
+  "sidebar.docs.category.Modules and Packages": {
+    "message": "Modules and Packages",
+    "description": "The label for category Modules and Packages in sidebar docs"
+  },
+  "sidebar.docs.category.File Operations": {
+    "message": "File Operations",
+    "description": "The label for category File Operations in sidebar docs"
+  },
+  "sidebar.docs.category.Built-in Modules": {
+    "message": "Built-in Modules",
+    "description": "The label for category Built-in Modules in sidebar docs"
+  },
+  "sidebar.docs.category.Part 3 - Python Advanced": {
+    "message": "Part 3 - Python Advanced",
+    "description": "The label for category Part 3 - Python Advanced in sidebar docs"
+  },
+  "sidebar.docs.category.Object-Oriented Programming": {
+    "message": "Object-Oriented Programming",
+    "description": "The label for category Object-Oriented Programming in sidebar docs"
+  },
+  "sidebar.docs.category.Exception Handling": {
+    "message": "Exception Handling",
+    "description": "The label for category Exception Handling in sidebar docs"
+  },
+  "sidebar.docs.category.Project Dependency Management": {
+    "message": "Project Dependency Management",
+    "description": "The label for category Project Dependency Management in sidebar docs"
+  },
+  "sidebar.docs.category.Type Systems": {
+    "message": "Type Systems",
+    "description": "The label for category Type Systems in sidebar docs"
+  },
+  "sidebar.docs.category.Part 4 - Comprehensive Cases": {
+    "message": "Part 4 - Comprehensive Cases",
+    "description": "The label for category Part 4 - Comprehensive Cases in sidebar docs"
+  },
+  "sidebar.docs.category.Command-Line Tools": {
+    "message": "Command-Line Tools",
+    "description": "The label for category Command-Line Tools in sidebar docs"
+  },
+  "sidebar.docs.category.Web Scraping": {
+    "message": "Web Scraping",
+    "description": "The label for category Web Scraping in sidebar docs"
+  },
+  "sidebar.docs.category.Web API": {
+    "message": "Web API",
+    "description": "The label for category Web API in sidebar docs"
+  },
+  "sidebar.docs.category.Appendix": {
+    "message": "Appendix",
+    "description": "The label for category Appendix in sidebar docs"
+  }
+}

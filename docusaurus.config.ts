@@ -1,7 +1,10 @@
-/** @type {import('@docusaurus/types').Config} */
-const config = {
-  title: 'JavaScript 工程师的 Python 指南',
-  tagline: 'Python, JavaScript, 编程, 经验, 教程, 开源, 免费, 电子书, 下载, PDF, 示例',
+import type { Config} from '@docusaurus/types'
+import type { Options } from '@docusaurus/preset-classic'
+
+
+const config: Config = {
+  title: 'Python Guide for Javascript Engineers',
+  tagline: 'Python, JavaScript, programming, experience, tutorials, open source, free, eBooks, downloads, PDF, examples',
   url: 'https://luckrnx09.github.io',
   baseUrl: '/python-guide-for-javascript-engineers/',
   trailingSlash: false,
@@ -12,15 +15,14 @@ const config = {
   presets: [
     [
       'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          path: './docs',
+          sidebarPath: './sidebars.ts',
+          routeBasePath: '/',
           sidebarCollapsed: false,
           editUrl: 'https://github.com/luckrnx09/python-guide-for-javascript-engineers/edit/main/',
-          routeBasePath: '/',
-          path: './docs',
-          editLocalizedFiles: false,
+          editLocalizedFiles: true,
         },
         blog: false,
         theme: {
@@ -30,7 +32,7 @@ const config = {
           changefreq: 'weekly',
           priority: 0.5,
         }
-      }),
+      }) as Options,
     ],
   ],
 
@@ -49,8 +51,12 @@ const config = {
       },
       navbar: {
         hideOnScroll: true,
-        title: 'JavaScript 工程师的 Python 指南',
+        title: 'Python Guide for JavaScript Engineers',
         items: [
+          {
+            type: 'localeDropdown',
+            position: 'left',
+          },
           {
             label:'Github',
             position: 'right',
@@ -58,14 +64,14 @@ const config = {
           },
         ],
         logo: {
-          alt: 'JavaScript 工程师的 Python 指南',
+          alt: 'Python Guide for JavaScript Engineers',
           href: '/',
           src: './img/favicon.ico'
         },
       },
       metadata: [
-        { name: 'keywords', content: 'Python, JavaScript, 编程, 经验, 教程, 开源, 免费, 电子书, 下载, PDF, 示例' },
-        { name: 'description', content: '《JavaScript 工程师的 Python 指南》，是一本的开源电子书，囊括从 Python 环境安装到项目开发所需要的各种知识。本书通过案例对比 JavaScript 和 Python 的异同，帮助 JavaScript 工程师快速掌握 Python 语言。' },
+        { name: 'keywords', content: 'Python, JavaScript, Programming, Experience, Tutorial, Open Source, Free, eBook, Download, PDF, Examples' },
+        { name: 'description', content: 'The Python Guide for JavaScript Engineers is an open source ebook that covers everything from Python environment installation to project development. This book compares the similarities and differences between JavaScript and Python through cases to help JavaScript engineers quickly master the Python language.' },
         { name: 'author', content: 'luckrnx09' },
       ],
     }
@@ -93,7 +99,7 @@ const config = {
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
         hashed: true,
-        language: ["zh"],
+        language: ["en", "zh"],
         docsRouteBasePath: "/",
         highlightSearchTermsOnTargetPage: true,
       },
@@ -101,14 +107,8 @@ const config = {
   ],
   stylesheets: [],
   i18n: {
-    defaultLocale: 'zh-cn',
-    locales: ['zh-cn'],
-    localeConfigs: {
-      'zh-cn': {
-        label: '中文',
-        direction: 'ltr',
-      },
-    },
+    defaultLocale: 'en',
+    locales: ['en', 'zh-cn'],
   },
 };
 

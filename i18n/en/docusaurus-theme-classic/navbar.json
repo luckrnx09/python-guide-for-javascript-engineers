@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Python Guide for JavaScript Engineers",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Python Guide for JavaScript Engineers",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Github": {
+    "message": "Github",
+    "description": "Navbar item with label Github"
+  }
+}
