@@ -62,6 +62,18 @@ some_fn('position_arg_value','add_to_args1','add_to_args2',a=1,b=2,c=3)
 # ('add_to_args1', 'add_to_args2')
 # {'a': 1, 'b': 2, 'c': 3}
 ```
+类似地，Python 也可以使用 `**` 展开一个字典
+
+```
+def some_fn(a, b, c):
+    print(a, b, c) # 1 2 3
+
+my_dict = {"c": 3, "b": 2, "a": 1} # Python 对字典中键的顺序没有要求
+some_fn(**my_dict)
+
+```
+
+
 `*args` 和 `**kwargs` 虽然方便，但如果函数只定义了这两个形参，IDE 将失去代码提示，同时函数的逻辑也将变得难以理解，需要谨慎使用。
 :::
 

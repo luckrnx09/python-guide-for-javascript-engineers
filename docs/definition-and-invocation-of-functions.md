@@ -62,6 +62,17 @@ some_fn('position_arg_value','add_to_args1','add_to_args2',a=1,b=2,c=3)
 # ('add_to_args1', 'add_to_args2')
 # {'a': 1, 'b': 2, 'c': 3}
 ```
+Similarly, Python can expand a dictionary using `**`.
+
+```
+def some_fn(a, b, c):
+    print(a, b, c) # 1 2 3
+
+my_dict = {"c": 3, "b": 2, "a": 1} # Python has no requirement for the order of keys in a dictionary
+some_fn(**my_dict)
+
+```
+
 While `*args` and `**kwargs` are convenient, if a function only has these parameters, IDE code suggestions will be lost, and the logic of the function may become harder to understand. Therefore, use them with caution.
 :::
 
