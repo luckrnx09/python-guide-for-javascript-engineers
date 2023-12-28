@@ -15,9 +15,9 @@ sidebar_label: 字典
 ```javascript
 let personalInfo = {};
  
-personalInfo.name: 'luckrnx09',
-personalInfo.age: 18,
-personalInfo.city: '成都'
+personalInfo.name = 'luckrnx09',
+personalInfo.age = 18,
+personalInfo.city = '成都'
 
 console.log(personalInfo);
 ```
