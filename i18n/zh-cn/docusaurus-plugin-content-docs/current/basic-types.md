@@ -71,8 +71,8 @@ print(type(name)) # 获取变量的类型
 | 是否以指定字符结尾 | `myStr.endsWith(suffix)` | `my_str.endswith(suffix)` |
 | 删除两端的空白字符	| `myStr.trim()`	| `my_str.strip()` |
 | 按指定宽度居中对齐 |	-	| `my_str.center(width)` |
-| 第一个单词首字母大写 |	-	| `my_str.capitalize()` |
-| 每个单词首字母大写 |	-	| `my_str.title()` |
+| 第一个单词首字母大写 | `myStr.replace(myStr[0], myStr[0].toUpperCase())`	| `my_str.capitalize()` |
+| 每个单词首字母大写 |	`myStr.replace(/(^\w{1})|(\s+\w{1})/g, s => s.toUpperCase())`	| `my_str.title()` |
 
 ### 相关资源
 - https://docs.python.org/3/library/stdtypes.html
