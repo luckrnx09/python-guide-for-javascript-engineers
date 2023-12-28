@@ -71,8 +71,8 @@ String is one of the most widely used data types in programming languages, maste
 | Check if a string ends with a specified character(s) | `myStr.endsWith(suffix)` | `my_str.endswith(suffix)` |
 | Trim whitespace from both ends of a string | `myStr.trim()`	| `my_str.strip()` |
 | Center align a string with a specified width |	-	| `my_str.center(width)` |
-| Capitalize the first letter of the first word |	-	| `my_str.capitalize()` |
-| Capitalize the first letter of each word |	-	| `my_str.title()` |
+| Capitalize the first letter of the first word |	`myStr.replace(myStr[0], myStr[0].toUpperCase())`	| `my_str.capitalize()` |
+| Capitalize the first letter of each word |	`myStr.replace(/(^\w{1})\|(\s+\w{1})/g, s => s.toUpperCase())`	| `my_str.title()` |
 
 ### Resources
 - https://docs.python.org/3/library/stdtypes.html
