@@ -50,9 +50,9 @@ list_items('../')
 
 | Feature | JavaScript | Python |
 |---------|------------|--------|
-| Check if file or directory exists | fs.existsSync(path) | os.path.exists(path) |
-| Create directory | fs.mkdirSync(path) | os.mkdir(path) |
-| List directory | fs.readdirSync(path) | os.listdir(path) |
+| Check if file or directory exists | `fs.existsSync(path)` | `os.path.exists(path)` |
+| Create directory | `fs.mkdirSync(path)` | `os.mkdir(path)` |
+| List directory | `fs.readdirSync(path)` | `os.listdir(path)` |
 
 ### Resources
 
