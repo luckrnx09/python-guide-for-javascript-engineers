@@ -22,7 +22,7 @@ function listItems(directory) {
   items.forEach((item) => {
     const itemPath = path.join(directory, item);
     const stats = fs.statSync(itemPath);
-    console.log(`${item}：${stats.isDirectory() ? '目录' : '文件'}`);
+    console.log(`${item}：${stats.isDirectory() ? 'directory' : 'file'}`);
   });
 }
 
