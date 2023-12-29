@@ -72,7 +72,7 @@ In Python, all variables, functions, classes, and other members that can be acce
 
 Feature | JavaScript | Python
 --- | --- | ---
-Import module | `import foo from 'module'` | `import foo`
+Import module | `import foo from 'module'` | `import module`
 Import specific members from module | `import { foo, bar } from 'module'` | `from module import foo, bar`
 Import module with alias | `import { foo as alias } from 'module'` | `from module import foo as alias`
 Import entire module with alias | `import * as alias from 'module'` | `import module as alias`
