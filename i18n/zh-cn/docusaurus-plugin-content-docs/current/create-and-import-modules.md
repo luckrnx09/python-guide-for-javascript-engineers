@@ -72,7 +72,7 @@ print(result)
 
 特性 | JavaScript | Python
 --- | --- | ---
-导入模块 | `import foo from 'module'` | `import foo`
+导入模块 | `import foo from 'module'` | `import module`
 从模块导入特定成员 | `import { foo, bar } from 'module'` | `from module import foo, bar`
 将模块导入为别名 | `import { foo as alias } from 'module'` | `from module import foo as alias`
 将整个模块导入为别名 | `import * as alias from 'module'` | `import module as alias`
