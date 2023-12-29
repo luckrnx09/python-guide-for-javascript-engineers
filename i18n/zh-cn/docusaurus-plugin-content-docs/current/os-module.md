@@ -18,8 +18,8 @@ import path from 'path';
 
 function listItems(directory) {
   const items = fs.readdirSync(directory);
-
-  items.forEach((item) => {
+ 
+ items.forEach((item) => {
     const itemPath = path.join(directory, item);
     const stats = fs.statSync(itemPath);
     console.log(`${item}：${stats.isDirectory() ? '目录' : '文件'}`);
