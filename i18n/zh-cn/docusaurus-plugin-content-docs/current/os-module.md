@@ -17,22 +17,12 @@ import fs from 'fs';
 import path from 'path';
 
 function listItems(directory) {
-  fs.readdir(directory, (err, items) => {
-    if (err) {
-      console.log(`读取目录时出错：${err}`);
-      return;
-    }
+  const items = fs.readdirSync(directory);
 
-    items.forEach((item) => {
-      const itemPath = path.join(directory, item);
-      fs.stat(itemPath, (err, stats) => {
-        if (err) {
-          console.log(`获取${item}的信息时出错：${err}`);
-        } else {
-          console.log(`${item}：${stats.isDirectory() ? '目录' : '文件'}`);
-        }
-      });
-    });
+  items.forEach((item) => {
+    const itemPath = path.join(directory, item);
+    const stats = fs.statSync(itemPath);
+    console.log(`${item}：${stats.isDirectory() ? '目录' : '文件'}`);
   });
 }
 
@@ -61,8 +51,8 @@ list_items('../')
 | 特性 | JavaScript | Python |
 |---------|------------|--------|
 | 文件或目录是否存在 | fs.existsSync(path) | os.path.exists(path) |
-| 创建目录 | fs.mkdir(path, [options], callback) | os.mkdir(path) |
-| 列出目录 | fs.readdir(path, [options], callback) | os.listdir(path) |
+| 创建目录 | fs.mkdirSync(path) | os.mkdir(path) |
+| 列出目录 | fs.readdirSync(path) | os.listdir(path) |
 
 ### 相关资源
 
