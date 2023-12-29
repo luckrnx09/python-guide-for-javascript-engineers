@@ -11,7 +11,7 @@ Loops are used to repeat a specific code logic, and both Python and JavaScript u
 
 Generate an array containing all numbers from 1 to 20, and print each item.
 #### JavaScript implementation
-```
+```typescript
 let numbers = Array.from({ length: 20 }, (_, i) => (i + 1));
 
 for (let el of numbers) {
@@ -21,7 +21,7 @@ for (let el of numbers) {
 ```
 
 #### Python implementation
-```
+```python
 numbers = range(1, 21)
 
 for el in numbers:
