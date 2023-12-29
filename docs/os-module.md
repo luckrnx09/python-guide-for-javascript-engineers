@@ -17,22 +17,12 @@ import fs from 'fs';
 import path from 'path';
 
 function listItems(directory) {
-  fs.readdir(directory, (err, items) => {
-    if (err) {
-      console.log(`Error reading directory: ${err}`);
-      return;
-    }
+  const items = fs.readdirSync(directory);
 
-    items.forEach((item) => {
-      const itemPath = path.join(directory, item);
-      fs.stat(itemPath, (err, stats) => {
-        if (err) {
-          console.log(`Error getting information for ${item}: ${err}`);
-        } else {
-          console.log(`${item}: ${stats.isDirectory() ? 'directory' : 'file'}`);
-        }
-      });
-    });
+  items.forEach((item) => {
+    const itemPath = path.join(directory, item);
+    const stats = fs.statSync(itemPath);
+    console.log(`${item}：${stats.isDirectory() ? '目录' : '文件'}`);
   });
 }
 
@@ -61,8 +51,8 @@ list_items('../')
 | Feature | JavaScript | Python |
 |---------|------------|--------|
 | Check if file or directory exists | fs.existsSync(path) | os.path.exists(path) |
-| Create directory | fs.mkdir(path, [options], callback) | os.mkdir(path) |
-| List directory | fs.readdir(path, [options], callback) | os.listdir(path) |
+| Create directory | fs.mkdirSync(path) | os.mkdir(path) |
+| List directory | fs.readdirSync(path) | os.listdir(path) |
 
 ### Resources
 
