@@ -11,7 +11,7 @@ sidebar_label: for 和 while 语句
 
 生成一个包含 1 到 20 的所有数字的数组，并打印每一项。
 #### JavaScript 实现
-```
+```typescript
 let numbers = Array.from({ length: 20 }, (_, i) => (i + 1));
 
 for (let el of numbers) {
@@ -21,7 +21,7 @@ for (let el of numbers) {
 ```
 
 #### Python 实现
-```
+```python
 numbers = range(1, 21)
 
 for el in numbers:
