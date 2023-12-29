@@ -12,14 +12,16 @@ Python 中的 math 模块提供了各种数学函数和常量。
 设计一个程序，通过输入半径来计算圆的面积。
 
 #### JavaScript 实现
-```
+
+```typescript
 const radius = 5;
 const area = Math.PI * Math.pow(radius, 2);
 console.log(area);
 ```
 
 #### Python 实现
-```
+
+```python
 import math
 
 radius = 5
