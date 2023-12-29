@@ -50,9 +50,9 @@ list_items('../')
 
 | 特性 | JavaScript | Python |
 |---------|------------|--------|
-| 文件或目录是否存在 | fs.existsSync(path) | os.path.exists(path) |
-| 创建目录 | fs.mkdirSync(path) | os.mkdir(path) |
-| 列出目录 | fs.readdirSync(path) | os.listdir(path) |
+| 文件或目录是否存在 | `fs.existsSync(path)` | `os.path.exists(path)` |
+| 创建目录 | `fs.mkdirSync(path)` | `os.mkdir(path)` |
+| 列出目录 | `fs.readdirSync(path)` | `os.listdir(path)` |
 
 ### 相关资源
 
