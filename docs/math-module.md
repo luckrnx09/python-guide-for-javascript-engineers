@@ -12,14 +12,16 @@ The math module in Python provides various mathematical functions and constants.
 Design a program to calculate the area of a circle based on the input radius.
 
 #### JavaScript implementation
-```
+
+```typescript
 const radius = 5;
 const area = Math.PI * Math.pow(radius, 2);
 console.log(area);
 ```
 
 #### Python implementation
-```
+
+```python
 import math
 
 radius = 5
