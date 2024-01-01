@@ -22,12 +22,11 @@ const missingClassics = classics.filter(classic => !books.includes(classic));
 
 if (missingClassics.length === 0) {
     console.log('The file already contains the four great classical novels of China.');
-    return;
+} else {
+    const missingClassicsText = missingClassics.join('\n');
+    fs.appendFileSync('books.txt', `\n${missingClassicsText}`, 'utf8');
+    console.log(`The missing novels have been added to the file: ${missingClassicsText}`);
 }
-
-const missingClassicsText = missingClassics.join('\n');
-fs.appendFileSync('books.txt', `\n${missingClassicsText}`, 'utf8');
-console.log(`The missing novels have been added to the file: ${missingClassicsText}`);
 ```
 
 #### Python implementation

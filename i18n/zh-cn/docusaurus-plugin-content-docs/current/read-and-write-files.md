@@ -22,12 +22,11 @@ const missingClassics = classics.filter(classic => !books.includes(classic));
 
 if (missingClassics.length === 0) {
     console.log('文件中已包含中国四大名著。');
-    return;
+} else {
+    const missingClassicsText = missingClassics.join('\n');
+    fs.appendFileSync('books.txt', `\n${missingClassicsText}`, 'utf8');
+    console.log(`已补充缺失的名著到文件中: ${missingClassicsText}`);
 }
-
-const missingClassicsText = missingClassics.join('\n');
-fs.appendFileSync('books.txt', `\n${missingClassicsText}`, 'utf8');
-console.log(`已补充缺失的名著到文件中: ${missingClassicsText}`);
 ```
 
 #### Python 实现
