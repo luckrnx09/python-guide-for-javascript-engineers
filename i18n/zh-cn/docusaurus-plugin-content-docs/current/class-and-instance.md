@@ -42,7 +42,7 @@ console.log(circle.getArea()); // 78.53981633974483
 console.log(circle.getCircumference()); // 31.41592653589793
 ```
 :::tip
-class 中的 `static` 关键字原来是 TypeScript 提供的特性，但从 ES2022 起已经在JavaScript中[原生支持](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Classes/static)了。 除此之外，TypeScript 还提供了 `public`、`private`、`protected` 访问修饰符。
+class 中的 `static` 关键字原来是 TypeScript 提供的特性，但从 ES2022 起已经在 JavaScript 中[原生支持](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Classes/static)了。 除此之外，TypeScript 还提供了 `public`、`private`、`protected` 访问修饰符。
 :::
 
 #### Python 实现
