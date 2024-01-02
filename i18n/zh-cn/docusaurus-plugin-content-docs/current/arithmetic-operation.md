@@ -98,7 +98,7 @@ print("自减后的 num2：", num2)
 
 ### 代码解读
 - Python 的加、减、乘、除、取余、指数运算语法与 JavaScript 一致。
-- sum 在Python中是 [内置函数](https://docs.python.org/3/library/functions.html?highlight=sum#sum)，在编写代码时应避免使用。
+- `sum` 在 Python 中是 [内置函数](https://docs.python.org/3/library/functions.html?highlight=sum#sum)，在编写代码时应避免将其用作变量名。
 - Python 中没有 `++` 和 `--` 运算符，需要使用 `+=` 和 `-=` 对变量进行自增或自减。
 
 ### 差异速览
