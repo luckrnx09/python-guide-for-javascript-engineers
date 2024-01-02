@@ -42,7 +42,7 @@ console.log(circle.getArea()); // 78.53981633974483
 console.log(circle.getCircumference()); // 31.41592653589793
 ```
 :::tip
-The `static` keyword in the class is not native to JavaScript, but a feature provided by TypeScript. In addition to `static`, TypeScript also provides access modifiers such as `public`, `private`, and `protected`.
+The `static` keyword in classes is a feature provided by TypeScript, but starting from ES2022, it has been [natively supported](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static) in JavaScript. In addition, TypeScript also provides access modifiers such as `public`, `private`, and `protected`.
 :::
 
 #### Python implementation
