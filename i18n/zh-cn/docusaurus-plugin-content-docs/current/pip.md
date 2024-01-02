@@ -15,6 +15,12 @@ pip install package_name1 package_name2
 ```
 它与 JavaScript 项目中的 `npm install package1 package2` 相似。
 
+如果想要安装特定版本的第三方包，可以使用 `==` 来指定，如：
+```shell
+pip install requests==2.20.0
+```
+它与 JavaScript 项目中的 `npm install axios@0.21.1` 相似。
+
 :::tip 软件仓库
 Python 的官方软件仓库为 https://pypi.org
 :::
