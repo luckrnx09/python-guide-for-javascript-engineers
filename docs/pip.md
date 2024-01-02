@@ -15,6 +15,13 @@ pip install package_name1 package_name2
 ```
 It is similar to `npm install package1 package2` in JavaScript projects.
 
+If you want to install a specific version of a third-party package, you can specify it using `==`, for example:
+
+```shell
+pip install requests==2.20.0
+```
+It is similar to `npm install axios@0.21.1` in JavaScript projects.
+
 :::tip Software Repository
 The official software repository for Python is https://pypi.org.
 :::
