@@ -98,7 +98,7 @@ print("Updated num2 after decrement:", num2)
 
 ### Code Highlight
 - The syntax for addition, subtraction, multiplication, division, remainder, and exponentiation in Python is the same as in JavaScript.
-- sum is the [Built-in Function](https://docs.python.org/3/library/functions.html?highlight=sum#sum) in Python, it is important to avoid using it.
+- `sum` is the [Built-in Function](https://docs.python.org/3/library/functions.html?highlight=sum#sum) in Python, it is important to avoid using it as a variable name.
 - Python does not have the `++` and `--` operators. Instead, `+=` and `-=` are used to increment or decrement variables.
 
 ### Difference Quick View
