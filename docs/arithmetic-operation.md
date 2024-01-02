@@ -64,8 +64,8 @@ num1 = 10
 num2 = 5
 
 # 1. Addition
-sum = num1 + num2
-print("Sum:", sum)
+sum_val = num1 + num2
+print("Sum:", sum_val)
 
 # 2. Subtraction
 difference = num1 - num2
@@ -98,6 +98,7 @@ print("Updated num2 after decrement:", num2)
 
 ### Code Highlight
 - The syntax for addition, subtraction, multiplication, division, remainder, and exponentiation in Python is the same as in JavaScript.
+- sum is the [Built-in Function](https://docs.python.org/3/library/functions.html?highlight=sum#sum) in Python, it is important to avoid using it.
 - Python does not have the `++` and `--` operators. Instead, `+=` and `-=` are used to increment or decrement variables.
 
 ### Difference Quick View
