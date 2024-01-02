@@ -64,8 +64,8 @@ num1 = 10
 num2 = 5
 
 # 1. 相加
-sum = num1 + num2
-print("和：", sum)
+sum_val = num1 + num2
+print("和：", sum_val)
 
 # 2. 相减
 difference = num1 - num2
@@ -98,6 +98,7 @@ print("自减后的 num2：", num2)
 
 ### 代码解读
 - Python 的加、减、乘、除、取余、指数运算语法与 JavaScript 一致。
+- sum 在Python中是 [内置函数](https://docs.python.org/3/library/functions.html?highlight=sum#sum)，在编写代码时应避免使用。
 - Python 中没有 `++` 和 `--` 运算符，需要使用 `+=` 和 `-=` 对变量进行自增或自减。
 
 ### 差异速览
