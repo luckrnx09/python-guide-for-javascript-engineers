@@ -17,7 +17,7 @@
 ## 贡献者
 
 <a href="https://github.com/luckrnx09/python-guide-for-javascript-engineers/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=luckrnx09/python-guide-for-javascript-engineers" />
+  <img src="https://contrib.rocks/image?repo=luckrnx09/python-guide-for-javascript-engineers&max=100" />
 </a>
 
 欢迎提交 PR 对本书的内容进行补充、修正以及翻译。
