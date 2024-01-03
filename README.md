@@ -17,7 +17,7 @@ You can read this book online at the following link:
 ## Contributors
 
 <a href="https://github.com/luckrnx09/python-guide-for-javascript-engineers/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=luckrnx09/python-guide-for-javascript-engineers" />
+  <img src="https://contrib.rocks/image?repo=luckrnx09/python-guide-for-javascript-engineers&max=100" />
 </a>
 
 Contributions are welcome to supplement, correct, and translate the content of this book. Please submit PRs for any changes.
