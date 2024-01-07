@@ -17,9 +17,9 @@ function greet(name, age, gender='保密') {
   console.log(`你好，我是${name}，今年${age}岁，性别${gender}`)
 }
 
-console.log(greet('张三', 18));
-console.log(greet('李四', 18, '男'));
-console.log(greet(...['王五', 18, '女']));
+greet('张三', 18);
+greet('李四', 18, '男');
+greet(...['王五', 18, '女']);
 ```
 
 #### Python 实现
@@ -27,10 +27,12 @@ console.log(greet(...['王五', 18, '女']));
 def greet(name, age, gender='保密'):
     print(f"你好，我是{name}，今年{age}岁，性别{gender}")
 
-print(greet('张三', 18)) # 传入位置参数
-print(greet(age=18,name='张三')) # 传入关键字参数
-print(greet('李四', 18, '男')) 
-print(greet(*['王五', 18, '女'])) 
+
+greet('张三', 18)  # 传入位置参数
+greet(age=18, name='张三')  # 传入关键字参数
+greet('李四', 18, '男')
+greet(*['王五', 18, '女'])
+
 ```
 
 ### 代码解读

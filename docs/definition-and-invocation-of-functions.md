@@ -17,9 +17,9 @@ function greet(name, age, gender='Secret') {
   console.log(`Hello, I am ${name}, ${age} years old, ${gender}`)
 }
 
-console.log(greet('Bob', 18));
-console.log(greet('Tom', 18, 'male'));
-console.log(greet(...['Amy', 18, 'female']));
+greet('Bob', 18);
+greet('Tom', 18, 'male');
+greet(...['Amy', 18, 'female']);
 ```
 
 #### Python implementation
@@ -27,10 +27,12 @@ console.log(greet(...['Amy', 18, 'female']));
 def greet(name, age, gender='Secret'):
     print(f"Hello, I am {name}, {age} years old, {gender}")
 
-print(greet('Bob', 18)) # Positional arguments
-print(greet(age=18,name='Bob')) # Keyword arguments
-print(greet('Tom', 18, 'male')) 
-print(greet(*['Amy', 18, 'female'])) 
+
+greet('Bob', 18)  # Positional arguments
+greet(age=18, name='Bob')  # Keyword arguments
+greet('Tom', 18, 'male')
+greet(*['Amy', 18, 'female'])
+
 ```
 
 ### Code Highlight
