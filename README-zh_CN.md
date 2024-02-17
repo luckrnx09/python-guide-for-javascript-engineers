@@ -14,6 +14,10 @@
 
 [https://luckrnx09.com/python-guide-for-javascript-engineers/zh-cn](https://luckrnx09.com/python-guide-for-javascript-engineers/zh-cn)
 
+## 本地阅读
+
+感谢 [wizardforcel](https://github.com/wizardforcel) 为本书中文版制作 EPUB 格式电子书，你可以 [点击这里](https://github.com/luckrnx09/python-guide-for-javascript-engineers/files/14112960/JavaScript.Python.zip) 下载。
+
 ## 贡献者
 
 <a href="https://github.com/luckrnx09/python-guide-for-javascript-engineers/graphs/contributors">
