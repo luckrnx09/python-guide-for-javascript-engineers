@@ -48,7 +48,7 @@
     "description": "The label for category 内建模块 in sidebar docs"
   },
   "sidebar.docs.category.Part 3 - Python Advanced": {
-    "message": "Part 3 - Python Advanced",
+    "message": "第三部分 - Python 高级",
     "description": "The label for category 第三部分 - Python 高级 in sidebar docs"
   },
   "sidebar.docs.category.Object-Oriented Programming": {
