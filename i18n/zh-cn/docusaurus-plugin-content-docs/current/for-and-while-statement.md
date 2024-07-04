@@ -46,7 +46,7 @@ for el in numbers:
 :::tip 在循环中获取元素索引
 Python 中的内置函数 `enumerate()` 用于枚举可迭代对象，它返回一个包含索引和项本身的元组。
 ```python
-for index,el of enumerate(my_list):
+for index,el in enumerate(my_list):
     ...
 ```
 :::
