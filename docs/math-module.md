@@ -37,7 +37,7 @@ print(area)
 | Round to Nearest Integer | `Math.round(x)` | `round(x)` |
 | Ceiling (Smallest Integer Not Less Than x) | `Math.ceil(x)` | `math.ceil(x)` |
 | Floor (Largest Integer Not Greater Than x) | `Math.floor(x)` | `math.floor(x)` |
-| Exponential Operation | `Math.pow(x, y)` | `pow(x, y)` |
+| Exponential Operation | `Math.pow(x, y)` | `math.pow(x, y)` |
 | Square Root | `Math.sqrt(x)` | `math.sqrt(x)` |
 | Trigonometric Functions | `Math.sin(x)`、`Math.cos(x)`、`Math.tan(x)`、`Math.asin(x)`、`Math.acos(x)`、`Math.atan(x)` | `math.sin(x)`、`math.cos(x)`、`math.tan(x)`、`math.asin(x)`、`math.acos(x)`、`math.atan(x)` |
 | Convert Degrees to Radians | - | `math.radians(x)` |
