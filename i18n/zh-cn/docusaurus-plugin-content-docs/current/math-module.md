@@ -37,7 +37,7 @@ print(area)
 | 四舍五入到最近的整数 | `Math.round(x)` | `round(x)` |
 | 向上取整（不小于x的最小整数） | `Math.ceil(x)` | `math.ceil(x)` |
 | 向下取整（不大于x的最大整数） | `Math.floor(x)` | `math.floor(x)` |
-| 指数运算 | `Math.pow(x, y)` | `pow(x, y)` |
+| 指数运算 | `Math.pow(x, y)` | `math.pow(x, y)` |
 | 平方根 | `Math.sqrt(x)` | `math.sqrt(x)` |
 | 三角函数 | `Math.sin(x)`、`Math.cos(x)`、`Math.tan(x)`、`Math.asin(x)`、`Math.acos(x)`、`Math.atan(x)` | `math.sin(x)`、`math.cos(x)`、`math.tan(x)`、`math.asin(x)`、`math.acos(x)`、`math.atan(x)` |
 | 将角度转换为弧度 | - | `math.radians(x)` |
