@@ -113,7 +113,7 @@ print("Updated num2 after decrement:", num2)
 | Remainder | `%` | `%` |
 | Exponentiation | `**` | `**` |
 | Increment | `++` <br /> `+=1` | `+= 1` |
-| Decrement | `--` <br/> `+=1` | `-= 1` |
+| Decrement | `--` <br/> `-=1` | `-= 1` |
 
 :::danger
 In Python, arithmetic operations can only be performed between **compatible** data types. For example, the result of a calculation between a floating-point number and an integer will be a floating-point number. However, performing arithmetic operations between a string and a number will result in an error. To perform arithmetic operations between a number and a string, one of them must be converted to the appropriate data type.
