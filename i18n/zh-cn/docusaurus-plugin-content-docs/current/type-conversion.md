@@ -9,20 +9,20 @@ sidebar_label: 类型转换
 
 ### 任务
 
-假设有一块硬盘的容量为 8192MB（字符串），请将这块硬盘的容量换算为 TB 单位，将换算结果保存到一个整数类型变量中。
+假设有一块硬盘的容量为 8192MB（字符串），请将这块硬盘的容量换算为 GB 单位，将换算结果保存到一个整数类型变量中。
 
 #### JavaScript 实现
 ```javascript
-let gb = '8192MB';
-let tb = parseInt(gb) / 1024
-let intTb = parseInt(tb)
-console.log(`该硬盘容量为: ${intTb}TB`)
+let mb = '8192MB';
+let gb = parseInt(mb) / 1024
+let intGb = parseInt(gb)
+console.log(`该硬盘容量为: ${intGb}GB`)
 ```
 #### Python 实现
 ```python
-gb = '8192MB'
-int_tb = int(gb[:-2]) // 1024
-print(f"该硬盘容量为: {int_tb}TB")
+mb = '8192MB'
+int_gb = int(mb[:-2]) // 1024
+print(f"该硬盘容量为: {int_gb}GB")
 ```
 
 ### 代码解读
@@ -44,5 +44,3 @@ print(f"该硬盘容量为: {int_tb}TB")
 
 ### 相关资源
 - https://docs.python.org/3/library/functions.html
-
-
