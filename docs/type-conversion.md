@@ -9,20 +9,20 @@ Type conversion is a common requirement in programming, and both Python and Java
 
 ### Task
 
-Assuming there is a hard disk with a capacity of 8192MB (as a string), please convert the capacity of this hard disk to the TB unit and save the conversion result in an integer variable.
+Assuming there is a hard disk with a capacity of 8192MB (as a string), please convert the capacity of this hard disk to the GB unit and save the conversion result in an integer variable.
 
 #### JavaScript implementation
 ```javascript
-let gb = '8192MB';
-let tb = parseInt(gb) / 1024
-let intTb = parseInt(tb)
-console.log(`The capacity of this hard disk is: ${intTb}TB`)
+let mb = '8192MB';
+let gb = parseInt(mb) / 1024
+let intGb = parseInt(gb)
+console.log(`The capacity of this hard disk is: ${intGb}GB`)
 ```
 #### Python implementation
 ```python
-gb = '8192MB'
-int_tb = int(gb[:-2]) // 1024
-print(f"The capacity of this hard disk is: {int_tb}TB")
+mb = '8192MB'
+int_gb = int(mb[:-2]) // 1024
+print(f"The capacity of this hard disk is: {int_gb}GB")
 ```
 
 ### Code Highlight
