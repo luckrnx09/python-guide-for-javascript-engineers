@@ -63,7 +63,7 @@ Python 中的字符串前面添加 `r`，表示不对字符串字面量进行转
 | 匹配正则表达式 | `myReg.test(myStr)` | `my_regex.match(my_str)` |
 | 查找第一个匹配项 | `myReg.exec(myStr)` | `my_regex.search(my_str)` |
 | 查找所有匹配项 | `myStr.match(myReg)` | `my_regex.findall(my_str)` |
-| 替换匹配项 | `myStr.replace(myReg, replacement)` | `my_regex.sub(replacement, my_str)` |
+| 替换匹配项 | `myStr.replaceAll(myReg, replacement)` | `my_regex.sub(replacement, my_str)` |
 | 使用正则表达式拆分字符串 | `myStr.split(myReg)` | `my_regex.split(my_str)` |
 
 :::tip

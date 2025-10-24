@@ -62,7 +62,7 @@ In Python, prefixing a string with `r` indicates a raw string literal, which tre
 | Matching a regular expression | `myReg.test(myStr)` | `my_regex.match(my_str)` |
 | Finding the first match | `myReg.exec(myStr)` | `my_regex.search(my_str)` |
 | Finding all matches | `myStr.match(myReg)` | `my_regex.findall(my_str)` |
-| Replacing matches | `myStr.replace(myReg, replacement)` | `my_regex.sub(replacement, my_str)` |
+| Replacing matches | `myStr.replaceAll(myReg, replacement)` | `my_regex.sub(replacement, my_str)` |
 | Splitting a string using a regular expression | `myStr.split(myReg)` | `my_regex.split(my_str)` |
 
 :::tip
