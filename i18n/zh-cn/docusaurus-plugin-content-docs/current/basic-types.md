@@ -62,7 +62,7 @@ print(type(name)) # 获取变量的类型
 | 拼接   | `myStr1 + myStr2`                  | `my_str1 + my_str2`                    |
 | 截取   | `myStr.slice(start, end)`        | `my_str[start:end]`                 |
 | 查找   | `myStr.indexOf(substring)`       | `my_str.index(substring)`           |
-| 替换   | `myStr.replace(old, new)`        | `my_str.replace(old, new)`          |
+| 替换   | `myStr.replaceAll(old, new)`        | `my_str.replace(old, new)`          |
 | 分割   | `myStr.split(separator)`         | `my_str.split(separator)`           |
 | 大小写转换 | `myStr.toUpperCase()`<br />`myStr.toLowerCase()` | `my_str.upper()`<br />`my_str.lower()` |
 | 反转	| `myStr.split('').reverse().join('')`	| `my_str[::-1]` |

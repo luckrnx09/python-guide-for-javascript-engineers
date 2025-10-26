@@ -62,7 +62,7 @@ String is one of the most widely used data types in programming languages, maste
 | Concatenate   | `myStr1 + myStr2`                  | `my_str1 + my_str2`                    |
 | Slice   | `myStr.slice(start, end)`        | `my_str[start:end]`                 |
 | Find   | `myStr.indexOf(substring)`       | `my_str.index(substring)`           |
-| Replace   | `myStr.replace(old, new)`        | `my_str.replace(old, new)`          |
+| Replace   | `myStr.replaceAll(old, new)`        | `my_str.replace(old, new)`          |
 | Split   | `myStr.split(separator)`         | `my_str.split(separator)`           |
 | Convert to uppercase and lowercase | `myStr.toUpperCase()`<br />`myStr.toLowerCase()` | `my_str.upper()`<br />`my_str.lower()` |
 | Reverse	| `myStr.split('').reverse().join('')`	| `my_str[::-1]` |
