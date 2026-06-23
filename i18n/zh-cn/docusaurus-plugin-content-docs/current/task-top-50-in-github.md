@@ -3,6 +3,7 @@ id: task-top-50-in-github
 slug: /task-top-50-in-github
 
 title: Github 热门
+description: 实战项目 — 用 Python 进行网页爬虫，提取 GitHub 上最热门的 50 个仓库。
 sidebar_label: Github 热门
 ---
 

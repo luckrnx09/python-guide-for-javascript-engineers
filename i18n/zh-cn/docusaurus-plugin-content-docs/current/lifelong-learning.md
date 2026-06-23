@@ -2,6 +2,7 @@
 id: lifelong-learning
 slug: /lifelong-learning
 title: 学无止境
+description: 超越基础 — 持续学习 Python 的路线图、推荐资源以及如何跟上 Python 生态的发展。
 sidebar_label: 学无止境
 ---
 

@@ -1,10 +1,9 @@
 import type { Config} from '@docusaurus/types'
 import type { Options } from '@docusaurus/preset-classic'
 
-
 const config: Config = {
-  title: 'Python Guide for Javascript Engineers',
-  tagline: 'Python, JavaScript, programming, experience, tutorials, open source, free, eBooks, downloads, PDF, examples',
+  title: 'Python Guide for JavaScript Engineers',
+  tagline: 'A free open-source eBook helping JavaScript developers master Python through practical code comparisons',
   url: 'https://luckrnx09.com',
   baseUrl: '/python-guide-for-javascript-engineers/',
   trailingSlash: false,
@@ -12,6 +11,12 @@ const config: Config = {
   onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico',
   projectName: 'python-guide-for-javascript-engineers',
+
+  // Custom fields (non-standard Docusaurus config)
+  customFields: {
+    image: 'img/book_cover.png',
+  },
+
   presets: [
     [
       'classic',
@@ -31,6 +36,7 @@ const config: Config = {
         sitemap: {
           changefreq: 'weekly',
           priority: 0.5,
+          lastmod: 'date',
         }
       }) as Options,
     ],
@@ -58,7 +64,7 @@ const config: Config = {
             position: 'left',
           },
           {
-            label:'Github',
+            label:'GitHub',
             position: 'right',
             href:'https://github.com/luckrnx09/python-guide-for-javascript-engineers'
           },
@@ -70,17 +76,54 @@ const config: Config = {
         },
       },
       metadata: [
-        { name: 'keywords', content: 'Python, JavaScript, Programming, Experience, Tutorial, Open Source, Free, eBook, Download, PDF, Examples' },
-        { name: 'description', content: 'The Python Guide for JavaScript Engineers is an open source ebook that covers everything from Python environment installation to project development. This book compares the similarities and differences between JavaScript and Python through cases to help JavaScript engineers quickly master the Python language.' },
+        { name: 'keywords', content: 'Python, JavaScript, programming, tutorial, open source, ebook, learn Python, JS to Python' },
+        { name: 'description', content: 'A free open-source eBook that helps JavaScript engineers quickly master Python through side-by-side code comparisons, practical examples, and hands-on projects.' },
         { name: 'author', content: 'luckrnx09' },
+        { name: 'robots', content: 'index, follow' },
+        { name: 'googlebot', content: 'index, follow' },
+        { property: 'og:image', content: 'https://luckrnx09.com/python-guide-for-javascript-engineers/img/book_cover.png' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:image', content: 'https://luckrnx09.com/python-guide-for-javascript-engineers/img/book_cover.png' },
       ],
     }
   ),
   plugins: [
-    function (context, options) {
+    // Structured data (JSON-LD) plugin
+    function structuredDataPlugin(_context: any, _options: any) {
       return {
-        name: 'baidu-plugin',
-        injectHtmlTags({ content }) {
+        name: 'structured-data-plugin',
+        injectHtmlTags({ content }: any) {
+          const isZhCN = content?.permalink?.startsWith('/zh-cn/');
+          const jsonLd = {
+            '@context': 'https://schema.org',
+            '@type': 'Book',
+            'name': isZhCN
+              ? 'Python 指南 for JavaScript 工程师'
+              : 'Python Guide for JavaScript Engineers',
+            'description': isZhCN
+              ? '一本免费的开源电子书，通过代码对比、实用示例和动手项目，帮助 JavaScript 工程师快速掌握 Python 语言。'
+              : 'A free open-source eBook that helps JavaScript engineers quickly master Python through side-by-side code comparisons, practical examples, and hands-on projects.',
+            'author': {
+              '@type': 'Person',
+              'name': 'luckrnx09',
+              'url': 'https://github.com/luckrnx09',
+            },
+            'url': 'https://luckrnx09.com/python-guide-for-javascript-engineers/',
+            'image': 'https://luckrnx09.com/python-guide-for-javascript-engineers/img/book_cover.png',
+            'inLanguage': isZhCN ? 'zh-CN' : 'en',
+            'license': 'https://opensource.org/licenses/MIT',
+          };
+          return {
+            headTags: `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`,
+          };
+        },
+      };
+    },
+    // Microsoft Clarity analytics
+    function (_context: any, _options: any) {
+      return {
+        name: 'clarity-plugin',
+        injectHtmlTags() {
           return {
             postBodyTags: [`
             <script type="text/javascript">

@@ -2,6 +2,7 @@
 id: how-to-use-the-book
 slug: /how-to-use-the-book
 title: How to Use the Book
+description: How to use this Python guide effectively — environment setup, running code examples, and comparison methodology between Python and JavaScript.
 sidebar_label: How to Use the Book
 ---
 

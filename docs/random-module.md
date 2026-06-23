@@ -2,6 +2,7 @@
 id: random-module
 slug: /random-module
 title: Random Module
+description: Python random module — generating random numbers, making random selections, shuffling sequences, and comparison with JavaScript's Math.random().
 sidebar_label: Random Module
 ---
 

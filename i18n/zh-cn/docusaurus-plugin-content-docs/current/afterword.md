@@ -2,6 +2,7 @@
 id: afterword
 slug: /afterword
 title: 后记
+description: 恭喜完成本书全部内容 — 关于学习旅程的回顾与继续用 Python 构建项目的鼓励。
 sidebar_label: 后记
 ---
 

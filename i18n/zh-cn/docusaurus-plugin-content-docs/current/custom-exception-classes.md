@@ -2,6 +2,7 @@
 id: custom-exception-classes
 slug: /custom-exception-classes
 title: 自定义异常
+description: 如何在 Python 中创建自定义异常类 — 扩展内置异常以实现特定领域的错误处理。
 sidebar_label: 自定义异常
 ---
 

@@ -2,6 +2,7 @@
 id: re-module
 slug: /re-module
 title: re 模块
+description: Python 正则表达式与 re 模块 — 模式匹配、搜索、替换，与 JavaScript 正则处理的差异。
 sidebar_label: re 模块
 ---
 

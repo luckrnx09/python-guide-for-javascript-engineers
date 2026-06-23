@@ -2,6 +2,7 @@
 id: datetime-module
 slug: /datetime-module
 title: datetime 模块
+description: 使用 Python 的 datetime 模块处理日期和时间 — 解析、格式化、时间运算和时区处理，与 JavaScript Date 的对比。
 sidebar_label: datetime 模块
 ---
 

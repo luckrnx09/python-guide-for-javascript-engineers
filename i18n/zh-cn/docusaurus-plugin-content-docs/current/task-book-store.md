@@ -3,6 +3,7 @@ id: task-book-store
 slug: /task-book-store
 
 title: 图书商店
+description: 实战项目 — 用 Python 构建一个书店 REST API，实现 CRUD 操作并学习 Web 服务开发。
 sidebar_label: 图书商店
 ---
 

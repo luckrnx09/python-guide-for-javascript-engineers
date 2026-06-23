@@ -3,6 +3,7 @@ id: task-list-files
 slug: /task-list-files
 
 title: File Browser
+description: Hands-on project — build a command-line file browser in Python, replicating Linux ls command functionality.
 sidebar_label: File Browser
 ---
 

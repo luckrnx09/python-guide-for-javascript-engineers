@@ -2,6 +2,7 @@
 id: type-conversion
 slug: /type-conversion
 title: Type Conversion
+description: Python type conversion — explicit and implicit type casting between int, float, str, bool, and how it differs from JavaScript's coercion rules.
 sidebar_label: Type Conversion
 ---
 

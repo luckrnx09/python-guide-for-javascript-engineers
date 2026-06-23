@@ -2,6 +2,7 @@
 id: hello-world
 slug: /hello-world
 title: Hello World
+description: Your first Python program — setting up the environment and writing the classic Hello World program, compared to JavaScript/Node.js.
 sidebar_label: Hello World
 ---
 

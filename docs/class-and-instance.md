@@ -2,6 +2,7 @@
 id: class-and-instance
 slug: /class-and-instance
 title: Class and Object
+description: Learn Python classes and objects — how to define classes, create instances, use constructors, and compare OOP patterns with JavaScript.
 sidebar_label: Class and Object
 ---
 

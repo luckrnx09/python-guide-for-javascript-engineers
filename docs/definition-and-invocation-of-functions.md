@@ -2,6 +2,7 @@
 id: definition-and-invocation-of-functions
 slug: /definition-and-invocation-of-functions
 title: Definition and Invocation of Functions
+description: How to define and call functions in Python — parameters, return values, default arguments, and keyword arguments compared to JavaScript functions.
 sidebar_label: Definition and Invocation of Functions
 ---
 

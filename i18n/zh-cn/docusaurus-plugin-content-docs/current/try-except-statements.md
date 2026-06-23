@@ -2,6 +2,7 @@
 id: try-except-statements
 slug: /try-except-statements
 title: try-except 语句
+description: Python 的 try-except 异常处理 — 捕获错误、多种异常类型、finally 代码块，与 JavaScript try-catch 的对比。
 sidebar_label: try-except 语句
 ---
 

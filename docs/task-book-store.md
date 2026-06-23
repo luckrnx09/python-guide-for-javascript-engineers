@@ -3,6 +3,7 @@ id: task-book-store
 slug: /task-book-store
 
 title: Book Store
+description: Hands-on project — build a bookstore REST API with Python, implementing CRUD operations and learning web service development.
 sidebar_label: Book Store
 ---
 

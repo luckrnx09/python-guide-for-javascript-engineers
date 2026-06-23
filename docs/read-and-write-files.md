@@ -2,6 +2,7 @@
 id: read-and-write-files
 slug: /read-and-write-files
 title: File Read and Write
+description: File I/O in Python — reading and writing files, file modes, context managers with 'with' statement, compared to Node.js fs module.
 sidebar_label: File Read and Write
 ---
 

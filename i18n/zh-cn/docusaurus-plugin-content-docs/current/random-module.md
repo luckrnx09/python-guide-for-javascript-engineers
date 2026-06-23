@@ -2,6 +2,7 @@
 id: random-module
 slug: /random-module
 title: random 模块
+description: Python 的 random 模块 — 生成随机数、随机选择、序列打乱，与 JavaScript Math.random() 的对比。
 sidebar_label: random 模块
 ---
 

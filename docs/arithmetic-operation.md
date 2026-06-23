@@ -2,6 +2,7 @@
 id: arithmetic-operation
 slug: /arithmetic-operation
 title: Arithmetic Operations with Basic Data Types
+description: Python arithmetic operators for basic math operations — addition, subtraction, multiplication, division, modulo, and exponentiation compared to JavaScript equivalents.
 sidebar_label: Arithmetic Operations
 ---
 

@@ -2,6 +2,7 @@
 id: arithmetic-operation
 slug: /arithmetic-operation
 title: 基本数据类型的算术运算
+description: Python 基本数据类型的算术运算符 — 加减乘除、取模、幂运算等与 JavaScript 的对比。
 sidebar_label: 基本数据类型的算术运算
 ---
 

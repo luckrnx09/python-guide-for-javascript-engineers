@@ -2,6 +2,7 @@
 id: typing-annotation
 slug: /typing-annotation
 title: Type Annotations
+description: Python type annotations — static type hints with the typing module, mypy type checking, and how optional typing compares to TypeScript.
 sidebar_label: Type Annotations
 ---
 

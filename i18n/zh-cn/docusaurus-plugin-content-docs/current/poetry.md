@@ -2,6 +2,7 @@
 id: poetry
 slug: /poetry
 title: poetry
+description: Poetry — 现代 Python 依赖管理和打包工具，支持锁文件和虚拟环境，类似 JavaScript 生态中的 npm/yarn。
 sidebar_label: poetry
 ---
 

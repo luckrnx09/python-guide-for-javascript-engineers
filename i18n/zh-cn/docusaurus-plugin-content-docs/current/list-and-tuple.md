@@ -2,6 +2,7 @@
 id: lists-and-tuples
 slug: /lists-and-tuples
 title: 列表和元组
+description: Python 的列表和元组 — 可变与不可变序列、常用操作、切片及其与 JavaScript 数组的对比。
 sidebar_label: 列表和元组
 ---
 

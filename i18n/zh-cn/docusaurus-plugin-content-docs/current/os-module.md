@@ -2,6 +2,7 @@
 id: os-module
 slug: /os-module
 title: os 模块
+description: Python 的 OS 模块 — 文件和目录操作、路径处理、环境变量及系统交互，与 Node.js fs/path 模块的对比。
 sidebar_label: os 模块
 ---
 

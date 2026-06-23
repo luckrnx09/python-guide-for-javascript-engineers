@@ -2,6 +2,7 @@
 id: references
 slug: /references
 title: References
+description: Reference materials and resources that influenced this book — official Python documentation, tutorials, and further reading recommendations.
 sidebar_label: References
 ---
 

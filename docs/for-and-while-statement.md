@@ -2,6 +2,7 @@
 id: for-and-while-statement
 slug: /for-and-while-statement
 title: For and While Statements
+description: Python for and while loops — iteration patterns, range(), enumerate(), loop control statements, and how they differ from JavaScript loops.
 sidebar_label: For and While Statements
 ---
 

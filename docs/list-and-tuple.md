@@ -2,6 +2,7 @@
 id: lists-and-tuples
 slug: /lists-and-tuples
 title: Lists and Tuples
+description: Python lists and tuples — mutable vs immutable sequences, common operations, slicing, and how they compare to JavaScript arrays.
 sidebar_label: Lists and Tuples
 ---
 

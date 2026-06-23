@@ -2,6 +2,7 @@
 id: definition-and-invocation-of-functions
 slug: /definition-and-invocation-of-functions
 title: 函数的定义和调用
+description: Python 函数的定义和调用 — 参数传递、返回值、默认参数和关键字参数，与 JavaScript 函数的对比。
 sidebar_label: 函数的定义和调用
 ---
 

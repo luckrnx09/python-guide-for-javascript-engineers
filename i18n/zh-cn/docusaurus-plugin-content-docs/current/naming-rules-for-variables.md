@@ -2,6 +2,7 @@
 id: naming-rules-for-variables
 slug: /naming-rules-for-variables
 title: 变量命名规则
+description: Python 变量命名规范 — PEP 8 风格指南、snake_case 与 camelCase 的区别，避免写出 JavaScript 风格的 Python 代码。
 sidebar_label: 变量命名规则
 ---
 

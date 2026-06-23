@@ -2,6 +2,7 @@
 id: if-statement
 slug: /if-statement
 title: if 语句
+description: Python 的 if-elif-else 条件语句 — 分支逻辑、真值判断和三元表达式，与 JavaScript 的对比。
 sidebar_label: if 语句
 ---
 

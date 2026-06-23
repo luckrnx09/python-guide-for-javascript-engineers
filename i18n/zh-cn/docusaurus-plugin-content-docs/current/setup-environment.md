@@ -2,6 +2,7 @@
 id: setup-environment
 slug: /setup-environment
 title: Python 环境安装
+description: 搭建 Python 开发环境 — macOS、Windows 和 Linux 上的安装教程、IDE 推荐以及环境验证。
 sidebar_label: Python 环境安装
 ---
 

@@ -2,6 +2,7 @@
 id: poetry
 slug: /poetry
 title: Poetry
+description: Poetry — modern Python dependency management and packaging tool with lock files and virtual environments, similar to npm/yarn in JavaScript ecosystem.
 sidebar_label: Poetry
 ---
 

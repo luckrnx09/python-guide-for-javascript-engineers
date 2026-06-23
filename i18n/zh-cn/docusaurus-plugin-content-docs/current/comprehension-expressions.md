@@ -2,6 +2,7 @@
 id: comprehension-expressions
 slug: /comprehension-expressions
 title: 列表推导和字典推导
+description: 掌握 Python 的列表推导式与字典推导式 — 比 JavaScript 的 map/filter 更强大的集合创建方式。
 sidebar_label: 列表推导和字典推导
 ---
 

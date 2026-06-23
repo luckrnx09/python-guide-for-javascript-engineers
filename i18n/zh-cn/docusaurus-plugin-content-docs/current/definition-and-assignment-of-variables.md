@@ -2,6 +2,7 @@
 id: definition-and-assignment-of-variables
 slug: /definition-and-assignment-of-variables
 title: 变量的定义和赋值
+description: Python 变量的定义和赋值 — 理解动态类型、多重赋值和作用域规则，与 JavaScript 的对比。
 sidebar_label: 变量的定义和赋值
 ---
 

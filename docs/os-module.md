@@ -2,6 +2,7 @@
 id: os-module
 slug: /os-module
 title: OS Module
+description: Python OS module — file and directory operations, path manipulation, environment variables, and system interactions compared to Node.js fs/path modules.
 sidebar_label: OS Module
 ---
 

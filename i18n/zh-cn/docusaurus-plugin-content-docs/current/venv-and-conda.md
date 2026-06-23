@@ -2,6 +2,7 @@
 id: venv-and-conda
 slug: /venv-and-conda-and-condaip
 title: venv 和 conda
+description: Python 虚拟环境和 Conda — 隔离项目依赖、管理 Python 版本，与 Node.js 的 node_modules/nvm 的对比。
 sidebar_label: venv 和 conda
 ---
 

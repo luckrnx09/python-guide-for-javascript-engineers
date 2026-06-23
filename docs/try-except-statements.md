@@ -2,6 +2,7 @@
 id: try-except-statements
 slug: /try-except-statements
 title: Try Except Statements
+description: Python exception handling with try-except — catching errors, multiple exception types, finally blocks, and comparison with JavaScript try-catch.
 sidebar_label: Try Except Statements
 ---
 

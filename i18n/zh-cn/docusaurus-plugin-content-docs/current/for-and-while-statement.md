@@ -2,6 +2,7 @@
 id: for-and-while-statement
 slug: /for-and-while-statement
 title: for 和 while 语句
+description: Python 的 for 和 while 循环 — 迭代模式、range()、enumerate() 及循环控制语句，与 JavaScript 循环的差异。
 sidebar_label: for 和 while 语句
 ---
 

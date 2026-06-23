@@ -2,6 +2,7 @@
 id: if-statement
 slug: /if-statement
 title: If Statement
+description: Python if-elif-else conditional statements — branching logic, truthiness, and ternary expressions compared to JavaScript.
 sidebar_label: If Statement
 ---
 

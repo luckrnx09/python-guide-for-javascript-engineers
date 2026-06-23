@@ -2,6 +2,7 @@
 id: dictionary
 slug: /dictionary
 title: 字典
+description: Python 字典详解 — 键值对存储、常用操作、嵌套字典及其与 JavaScript 对象和 Map 的对比。
 sidebar_label: 字典
 ---
 

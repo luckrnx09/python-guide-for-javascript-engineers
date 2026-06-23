@@ -2,6 +2,7 @@
 id: pip
 slug: /pip
 title: Pip
+description: Python's pip package manager — installing, upgrading, and managing third-party packages, compared to JavaScript's npm/yarn.
 sidebar_label: Pip
 ---
 

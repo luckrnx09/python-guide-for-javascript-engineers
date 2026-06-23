@@ -2,6 +2,7 @@
 id: json-module
 slug: /json-module
 title: JSON Module
+description: Working with JSON in Python using the json module — parsing, serialization, custom encoders/decoders, and comparison with JavaScript's JSON API.
 sidebar_label: JSON Module
 ---
 

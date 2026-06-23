@@ -2,6 +2,7 @@
 id: anonymous-functions
 slug: /anonymous-functions
 title: Anonymous Functions
+description: Learn Python lambda functions and how they compare to JavaScript arrow functions — syntax differences, use cases, and limitations.
 sidebar_label: Anonymous Functions
 ---
 

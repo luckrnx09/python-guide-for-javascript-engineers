@@ -2,6 +2,7 @@
 id: basic-types
 slug: /basic-types
 title: Basic Data Types
+description: Overview of Python's basic data types — integers, floats, strings, booleans, and how they compare to JavaScript types.
 sidebar_label: Basic Data Types
 ---
 

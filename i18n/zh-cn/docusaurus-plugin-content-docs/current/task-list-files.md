@@ -3,6 +3,7 @@ id: task-list-files
 slug: /task-list-files
 
 title: 文件浏览器
+description: 实战项目 — 用 Python 构建命令行文件浏览器，复现 Linux ls 命令的功能。
 sidebar_label: 文件浏览器
 ---
 

@@ -2,6 +2,7 @@
 id: setup-environment
 slug: /setup-environment
 title: Python Environment Setup
+description: Setting up your Python development environment — installation on macOS, Windows, and Linux, IDE recommendations, and verifying your setup.
 sidebar_label: Python Environment Setup
 ---
 
