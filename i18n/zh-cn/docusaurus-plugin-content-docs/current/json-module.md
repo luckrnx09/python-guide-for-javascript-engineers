@@ -2,6 +2,7 @@
 id: json-module
 slug: /json-module
 title: json 模块
+description: 使用 Python 的 json 模块处理 JSON 数据 — 解析、序列化、自定义编码器/解码器，与 JavaScript JSON API 的对比。
 sidebar_label: json 模块
 ---
 

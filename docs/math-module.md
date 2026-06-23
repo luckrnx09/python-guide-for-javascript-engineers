@@ -2,6 +2,7 @@
 id: math-module
 slug: /math-module
 title: Math Module
+description: Python math module — mathematical functions, constants, trigonometry, logarithms, and how they compare to JavaScript's Math object.
 sidebar_label: Math Module
 ---
 

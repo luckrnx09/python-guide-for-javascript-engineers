@@ -2,6 +2,7 @@
 id: typing-annotation
 slug: /typing-annotation
 title: 类型注解
+description: Python 类型注解 — 使用 typing 模块的静态类型提示、mypy 类型检查，可选类型与 TypeScript 的对比。
 sidebar_label: 类型注解
 ---
 

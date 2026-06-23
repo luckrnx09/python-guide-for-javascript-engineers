@@ -2,6 +2,7 @@
 id: re-module
 slug: /re-module
 title: Re Module
+description: Python regular expressions with the re module — pattern matching, searching, substitution, and how regex handling differs from JavaScript.
 sidebar_label: Re Module
 ---
 

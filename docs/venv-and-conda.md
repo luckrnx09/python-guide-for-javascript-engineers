@@ -2,6 +2,7 @@
 id: venv-and-conda
 slug: /venv-and-conda-and-condaip
 title: Virtual Environments and Conda
+description: Python virtual environments and Conda — isolating project dependencies, managing Python versions, and comparison with Node.js node_modules/nvm.
 sidebar_label: Virtual Environments and Conda
 ---
 

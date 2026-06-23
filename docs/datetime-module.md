@@ -2,6 +2,7 @@
 id: datetime-module
 slug: /datetime-module
 title: Datetime Module
+description: Working with dates and times in Python using the datetime module — parsing, formatting, arithmetic, and timezone handling compared to JavaScript's Date.
 sidebar_label: Datetime Module
 ---
 

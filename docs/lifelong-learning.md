@@ -2,6 +2,7 @@
 id: lifelong-learning
 slug: /lifelong-learning
 title: Lifelong Learning
+description: Beyond the basics — guidance on continuing your Python learning journey, recommended resources, and how to stay current with Python ecosystem changes.
 sidebar_label: Lifelong Learning
 ---
 

@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /python-guide-for-javascript-engineers/
+
+# AI crawlers — allow for visibility
+User-agent: GPTBot
+Allow: /python-guide-for-javascript-engineers/
+
+User-agent: Google-Extended
+Allow: /python-guide-for-javascript-engineers/
+
+User-agent: Claude-Web
+Allow: /python-guide-for-javascript-engineers/
+
+User-agent: CCBot
+Allow: /python-guide-for-javascript-engineers/
+
+User-agent: anthropic-ai
+Allow: /python-guide-for-javascript-engineers/
+
+User-agent: PerplexityBot
+Allow: /python-guide-for-javascript-engineers/
+
+User-agent: cohere-ai
+Allow: /python-guide-for-javascript-engineers/
+
+User-agent: Diffbot
+Allow: /python-guide-for-javascript-engineers/
+
+Sitemap: https://luckrnx09.com/python-guide-for-javascript-engineers/sitemap.xml

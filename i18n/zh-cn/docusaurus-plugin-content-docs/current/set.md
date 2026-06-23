@@ -2,6 +2,7 @@
 id: set
 slug: /set
 title: 集合
+description: Python 集合 — 无序且元素唯一的集合类型，支持并集、交集、差集等操作，与 JavaScript Set 的对比。
 sidebar_label: 集合
 ---
 

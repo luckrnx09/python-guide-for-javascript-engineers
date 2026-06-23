@@ -2,6 +2,7 @@
 id: type-conversion
 slug: /type-conversion
 title: 类型转换
+description: Python 类型转换 — int、float、str、bool 之间的显式和隐式转换，与 JavaScript 类型强制转换规则的差异。
 sidebar_label: 类型转换
 ---
 

@@ -2,6 +2,7 @@
 id: afterword
 slug: /afterword
 title: Afterword
+description: Congratulations on completing the Python Guide for JavaScript Engineers — reflections on the learning journey and encouragement to keep building with Python.
 sidebar_label: Afterword
 ---
 

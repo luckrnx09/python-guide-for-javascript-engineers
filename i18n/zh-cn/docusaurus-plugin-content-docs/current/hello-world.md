@@ -2,6 +2,7 @@
 id: hello-world
 slug: /hello-world
 title: Python 第一个 Python 程序
+description: 第一个 Python 程序 — 环境配置与经典 Hello World 示例，与 JavaScript/Node.js 的对比。
 sidebar_label: 第一个 Python 程序
 ---
 

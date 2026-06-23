@@ -2,6 +2,7 @@
 id: naming-rules-for-variables
 slug: /naming-rules-for-variables
 title: Naming Rules for Variables
+description: Python variable naming conventions — PEP 8 style guide rules, snake_case vs camelCase, and avoiding JavaScript-flavored Python code.
 sidebar_label: Naming Rules for Variables
 ---
 

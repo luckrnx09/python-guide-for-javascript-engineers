@@ -2,6 +2,7 @@
 id: set
 slug: /set
 title: Set
+description: Python sets — unordered collections of unique elements with set operations like union, intersection, and difference, compared to JavaScript's Set.
 sidebar_label: Set
 ---
 

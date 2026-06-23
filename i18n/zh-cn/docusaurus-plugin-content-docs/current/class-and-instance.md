@@ -2,6 +2,7 @@
 id: class-and-instance
 slug: /class-and-instance
 title: 类和对象
+description: 学习 Python 的类和对象 — 如何定义类、创建实例、使用构造函数，与 JavaScript OOP 模式的对比。
 sidebar_label: 类和对象
 ---
 

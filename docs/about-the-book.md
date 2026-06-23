@@ -2,6 +2,7 @@
 id: about-the-book
 slug: /about-the-book
 title: About the Book
+description: Introduction to the Python Guide for JavaScript Engineers — an open-source eBook by luckrnx09 that helps frontend developers learn Python through side-by-side code comparisons with JavaScript.
 sidebar_label: About the Book
 ---
 

@@ -2,6 +2,7 @@
 id: read-and-write-files
 slug: /read-and-write-files
 title: 文件读写
+description: Python 文件读写操作 — 文件模式、with 上下文管理器，与 Node.js fs 模块的对比。
 sidebar_label: 文件读写
 ---
 

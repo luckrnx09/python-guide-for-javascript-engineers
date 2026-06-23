@@ -2,6 +2,7 @@
 id: basic-types
 slug: /basic-types
 title: 基本数据类型
+description: Python 基本数据类型概览 — 整数、浮点数、字符串、布尔值及其与 JavaScript 类型的差异。
 sidebar_label: 基本数据类型
 ---
 

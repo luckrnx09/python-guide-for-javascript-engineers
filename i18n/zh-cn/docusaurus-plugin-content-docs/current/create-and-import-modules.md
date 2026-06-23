@@ -2,6 +2,7 @@
 id: create-and-import-modules
 slug: /create-and-import-of-modules
 title: 创建和导入模块
+description: 如何创建和导入 Python 模块 — 理解模块作用域、import 语句及其与 JavaScript 模块系统的差异。
 sidebar_label: 创建和导入模块
 ---
 

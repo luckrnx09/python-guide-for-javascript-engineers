@@ -2,6 +2,7 @@
 id: pip
 slug: /pip
 title: pip
+description: Python 的 pip 包管理器 — 安装、升级和管理第三方包，与 JavaScript npm/yarn 的对比。
 sidebar_label: pip
 ---
 

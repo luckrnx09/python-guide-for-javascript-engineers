@@ -2,6 +2,7 @@
 id: about-the-book
 slug: /about-the-book
 title: 关于本书
+description: Python 指南 for JavaScript 工程师简介 — luckrnx09 编写的开源电子书，通过 Python 与 JavaScript 的代码对比帮助前端开发者学习 Python。
 sidebar_label: 关于本书
 ---
 

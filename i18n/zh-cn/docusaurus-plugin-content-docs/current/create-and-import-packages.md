@@ -2,6 +2,7 @@
 id: create-and-import-packages
 slug: /create-and-import-packages
 title: 创建和导入包
+description: 如何创建和导入 Python 包 — 使用 __init__.py 组织项目结构，理解包导入与 JavaScript npm 包的区别。
 sidebar_label: 创建和导入包
 ---
 

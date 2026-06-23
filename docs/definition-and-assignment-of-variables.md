@@ -2,6 +2,7 @@
 id: definition-and-assignment-of-variables
 slug: /definition-and-assignment-of-variables
 title: Definition and Assignment of Variables
+description: Python variable definition and assignment — understanding dynamic typing, multiple assignment, and scope rules compared to JavaScript.
 sidebar_label: Definition and Assignment of Variables
 ---
 

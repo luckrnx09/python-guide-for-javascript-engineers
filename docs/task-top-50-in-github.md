@@ -3,6 +3,7 @@ id: task-top-50-in-github
 slug: /task-top-50-in-github
 
 title: Top 50 in Github
+description: Hands-on project — web scraping with Python to extract the top 50 trending repositories from GitHub.
 sidebar_label: Top 50 in Github
 ---
 

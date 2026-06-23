@@ -2,6 +2,7 @@
 id: third-party-packages
 slug: /third-party-packages
 title: 常用的第三方包
+description: 热门第三方 Python 包概览 — requests、numpy、pandas、flask 等 Python 生态中的核心库介绍。
 sidebar_label: 常用的第三方包
 ---
 

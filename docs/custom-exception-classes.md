@@ -2,6 +2,7 @@
 id: custom-exception-classes
 slug: /custom-exception-classes
 title: Custom Exceptions
+description: How to create custom exception classes in Python — extending built-in exceptions for domain-specific error handling.
 sidebar_label: Custom Exceptions
 ---
 

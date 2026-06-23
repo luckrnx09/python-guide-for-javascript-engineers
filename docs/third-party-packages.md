@@ -2,6 +2,7 @@
 id: third-party-packages
 slug: /third-party-packages
 title: Popular Third-Party Packages
+description: Overview of popular third-party Python packages — requests, numpy, pandas, flask, and other essential libraries for the Python ecosystem.
 sidebar_label: Popular Third-Party Packages
 ---
 

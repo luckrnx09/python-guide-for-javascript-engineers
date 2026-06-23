@@ -2,6 +2,7 @@
 id: dictionary
 slug: /dictionary
 title: Dictionary
+description: Python dictionaries explained — key-value storage, common operations, nested dictionaries, and how they compare to JavaScript objects and Maps.
 sidebar_label: Dictionary
 ---
 

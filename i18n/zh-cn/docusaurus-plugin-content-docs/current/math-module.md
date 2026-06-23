@@ -2,6 +2,7 @@
 id: math-module
 slug: /math-module
 title: math 模块
+description: Python 的 math 模块 — 数学函数、常量、三角函数、对数函数，与 JavaScript Math 对象的对比。
 sidebar_label: math 模块
 ---
 

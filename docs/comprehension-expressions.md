@@ -2,6 +2,7 @@
 id: comprehension-expressions
 slug: /comprehension-expressions
 title: List Comprehensions and Dictionary Comprehensions
+description: Master Python list comprehensions and dictionary comprehensions — a concise way to create collections that JavaScript developers will find more powerful than map/filter.
 sidebar_label: List Comprehensions and Dictionary Comprehensions
 ---
 

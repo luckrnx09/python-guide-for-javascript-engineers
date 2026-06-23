@@ -2,6 +2,7 @@
 id: anonymous-functions
 slug: /anonymous-functions
 title: 匿名函数
+description: 学习 Python 的 lambda 匿名函数及其与 JavaScript 箭头函数的对比 — 语法差异、使用场景和限制。
 sidebar_label: 匿名函数
 ---
 

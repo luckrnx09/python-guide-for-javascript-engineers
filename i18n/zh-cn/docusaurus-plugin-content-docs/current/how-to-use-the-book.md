@@ -2,6 +2,7 @@
 id: how-to-use-the-book
 slug: /how-to-use-the-book
 title: 如何使用本书
+description: 如何高效使用本 Python 指南 — 环境设置、运行示例代码的方法以及 Python 与 JavaScript 对比学习的策略。
 sidebar_label: 如何使用本书
 ---
 

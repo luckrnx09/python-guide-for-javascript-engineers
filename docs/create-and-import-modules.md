@@ -2,6 +2,7 @@
 id: create-and-import-modules
 slug: /create-and-import-of-modules
 title: Create and Import Modules
+description: How to create and import Python modules — understanding module scope, import statements, and the differences from JavaScript's module system.
 sidebar_label: Create and Import Modules
 ---
 

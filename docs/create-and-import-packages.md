@@ -2,6 +2,7 @@
 id: create-and-import-packages
 slug: /create-and-import-packages
 title: Create and Import Packages
+description: How to create and import Python packages — structuring projects with __init__.py and understanding package imports compared to JavaScript npm packages.
 sidebar_label: Create and Import Packages
 ---
 
